@@ -1,0 +1,19 @@
+.bg-image {
+  background-image: url("https://d12fyb3kmekjk6.cloudfront.net/7fd71319-cd0d-458a-a08f-911323ae4856/img/home/rotators/WPS-Rale.jpg");
+}
+
+.nav-text {
+  font-size: 15px;
+}
+
+.custom-border {
+  border-bottom: solid rgb(197, 197, 197) 1px;
+}
+
+.phone {
+  background: hsla(0,0%,100%,.2);
+}
+
+.text-xl {
+  cursor: pointer;
+}
