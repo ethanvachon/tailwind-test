@@ -1,5 +1,6 @@
 .bg-image {
   background-image: url("https://d12fyb3kmekjk6.cloudfront.net/7fd71319-cd0d-458a-a08f-911323ae4856/img/home/rotators/WPS-Rale.jpg");
+  background-size: cover;
 }
 
 .nav-text {
@@ -14,6 +15,75 @@
   background: hsla(0,0%,100%,.2);
 }
 
+.shadow-t {
+  text-shadow: 1px 1px 4px #333;
+}
+
 .text-xl {
   cursor: pointer;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  }
+  
+.fade-in-1 {
+  animation: fadeIn-1 ease 3s;
+}
+@keyframes fadeIn-1 {
+  0% {opacity:0;}
+  40% {opacity:1;}
+}
+
+.fade-in-2 {
+  animation: fadeIn-2 ease 3s;
+}
+@keyframes fadeIn-2 {
+  0% {opacity:0;}
+  60% {opacity:1;}
+}
+
+.fade-in-3 {
+  animation: fadeIn-3 ease 3s;
+}
+@keyframes fadeIn-3 {
+  0% {opacity:0;}
+  80% {opacity:1;}
+}
+
+.fade-in-4 {
+  animation: fadeIn-4 ease 3s;
+}
+@keyframes fadeIn-4 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,40px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
 }
